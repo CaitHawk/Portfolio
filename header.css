@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 4.5rem;
+    background-color: black;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: white 2px solid;
+    margin: 0 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: #407a91;
+    cursor: pointer;
+}
+
+/* MEDIUM SCREEN BREAKPOINT - (TABLET) */
+
+@media screen and (max-width: 800px) and (min-width: 401px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* SMALL SCREEN BREAKPOINT - (SMARTPHONE) */
+
+@media screen and (max-width: 400px) {
+
+}

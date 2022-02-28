@@ -1,0 +1,20 @@
+#about {
+    width: 100vw;
+    margin: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #203741;
+}
+
+/* MEDIUM SCREEN BREAKPOINT - (TABLET) */
+
+@media screen and (max-width: 700px) and (min-width: 401px) {
+
+}
+
+/* SMALL SCREEN BREAKPOINT - (SMARTPHONE) */
+
+@media screen and (max-width: 400px) {
+
+}

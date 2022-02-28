@@ -1,0 +1,38 @@
+html, body {
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+/* CARD STYLES- DELETE WHEN WORKING ON PAGE */
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title {
+    font-size: 40px;
+    color: white;
+}
+
+
+/* MEDIUM SCREEN BREAKPOINT - (TABLET) */
+
+@media screen and (max-width: 700px) and (min-width: 401px) {
+
+}
+
+/* SMALL SCREEN BREAKPOINT - (SMARTPHONE) */
+
+@media screen and (max-width: 400px) {
+
+}

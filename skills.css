@@ -1,0 +1,22 @@
+#skills {
+    width: 100vw;
+    margin: 0;
+    left: 0;
+    right: 0;
+    height: 800px;
+    /* background-color: #407a91; */
+    background-color: #091216;
+}
+
+
+/* MEDIUM SCREEN BREAKPOINT - (TABLET) */
+
+@media screen and (max-width: 700px) and (min-width: 401px) {
+
+}
+
+/* SMALL SCREEN BREAKPOINT - (SMARTPHONE) */
+
+@media screen and (max-width: 400px) {
+
+}
