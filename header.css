@@ -7,6 +7,7 @@
     top: 0;
     height: 4.5rem;
     background-color: black;
+    z-index: 100;
 }
 .logo {
     display: flex;
@@ -47,19 +48,34 @@
 
 /* MEDIUM SCREEN BREAKPOINT - (TABLET) */
 
-@media screen and (max-width: 800px) and (min-width: 401px) {
+@media screen and (max-width: 800px) and (min-width: 451px) {
     .header {
         display: flex;
         flex-direction: column;
-        height: auto;
+        height: 9rem;
         justify-content: center;
         align-items: center;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1.4rem;
+    }
+    .navbar {
+        width: 100%;
+        font-size: 12px;
     }
 
 }
 
 /* SMALL SCREEN BREAKPOINT - (SMARTPHONE) */
 
-@media screen and (max-width: 400px) {
-
-}
+@media screen and (max-width: 450px) {
+    .header {
+        display: none;
+    }
+    .container {
+        margin-top: 0;
+    }
+ }

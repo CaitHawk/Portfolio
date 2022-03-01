@@ -5,18 +5,93 @@
     right: 0;
     height: 100vh;
     background-color: #091216;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
 }
+.home-info {
+    text-align: center;
+    padding-left: 30px;
+}
+
+.home-title {
+    color: white;
+    font-size: 2.6rem;
+}
+
+.home-intro {
+    color: white;
+    font-size: 0.7rem;
+}
+.home-btns {
+    padding: 30px 0;
+}
+
+.home-btn {
+    padding: 8px;
+    background-color: rgb(101, 134, 136);
+    border-radius: 15px;
+    color: white;
+    border: white solid 2px;
+    margin: 5px;
+    text-decoration: none;
+}
+.home-btn:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+.home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img {
+    height: 400px;
+    width: 90%;
+    border-radius: 20px;
+}
+
 
 
 
 /* MEDIUM SCREEN BREAKPOINT - (TABLET) */
 
-@media screen and (max-width: 700px) and (min-width: 401px) {
+@media screen and (max-width: 800px) and (min-width: 551px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        padding-top: 7rem;
+    }
+    .home-btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 1rem;
+        width: 100%;
+    }
 
 }
 
 /* SMALL SCREEN BREAKPOINT - (SMARTPHONE) */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 7rem;
+        width: 100%;
+    }
+    .home-img {
+        display: none;
+    }
 
 }

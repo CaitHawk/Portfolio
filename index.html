@@ -15,34 +15,37 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="skills.css">
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body class="body">
-    <header id="header" class="header">
+    <header id="header" class="header home-header">
         <div class="logo">
-            <img src="public/Winter-Scenes-Backgrounds-Wallpapers-Browse.jpg" alt="Caitlin Neathawk">
-            <h3>Caitlin Neathawk</h3>
+            <img src="public/winter.jpg" alt="Caitlin Neathawk">
+            <h3></h3>
         </div>
         <nav class="navbar">
-            <a href="#home" class="navlink">Home</a>
-            <a href="#about" class="navlink">About</a>
-            <a href="#skills" class="navlink">Skills</a>
-            <a href="#portfolio" class="navlink">Portfolio</a>
-            <a href="#contact" class="navlink">Contact Me</a>
+            <a href="information.html" class="navlink">About</a>
+            <a href="information.html#skills" class="navlink">Skills</a>
+            <a href="information.html#portfolio" class="navlink">Portfolio</a>
+            <a href="information.html#contact" class="navlink">Contact Me</a>
         </nav>
     </header>
     <div class="container">
-        <section id="home" class="card">
-            <p class="card-title">Home Page</p>
+
+
+        <section id="home" class="home">
+            <div class="home-info">
+                <h1 class="home-title">Caitlin Neathawk</h1>
+                <h2 class="home-intro">Front End Developer - Aspiring Full Stack Developer</h2>
+                <div class="home-btns">
+                    <a href="information.html" class="home-btn">Learn More</a>
+                    <a href="information.html#contact" class="home-btn">Get in Touch</a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="public/desk.jpg" alt="profile picture">
+            </div>
         </section>
-        <section id="about" class="card"><p class="card-title">About Page</p></section>
-        <section id="skills" class="card"><p class="card-title">Skills Page</p></section>
-        <section id="portfolio" class="card"><p class="card-title">Portfolio Page</p></section>
-        <section id="contact" class="card"><p class="card-title">Contact Page</p></section>
     </div>
     <script src="app.js"></script>
 </body>
