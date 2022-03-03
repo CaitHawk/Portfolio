@@ -6,16 +6,129 @@
     height: 800px;
     background-color: #091216;
 }
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactInput {
+    width: 20rem;
+    height: 1.5rem;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    border: 2px white solid;
+    background-color: #ffffffb4;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: 3px 3px 6px black;
+}
+
+.contactTextarea {
+    width: 20rem;
+    height: 10rem;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: #ffffffb4;
+    border: 2px solid white;
+    box-shadow: 3px 3px 6px black;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #ffffffb4;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #658688;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.contactLinks {
+    font-size: .8rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.fa {
+    margin-right: .3rem;
+}
+
+.contactSocial {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+/* LARGE SCREEN BREAKPOINT */
+@media screen and (min-width: 701px) {
+    .contactForm {
+        border: 2px white solid;
+        background-color: #202429;
+        padding: 3rem;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+}
 
 
 /* MEDIUM SCREEN BREAKPOINT - (TABLET) */
 
-@media screen and (max-width: 700px) and (min-width: 401px) {
+@media screen and (max-width: 700px) and (min-width: 551px) {
+    
+
+}
+
+@media screen and (max-width: 550px) and (min-width: 401px) {
+    .contactSocial {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
 /* SMALL SCREEN BREAKPOINT - (SMARTPHONE) */
 
 @media screen and (max-width: 400px) {
+    .contactForm {
+        width: 100%;
+    }
+    .contactInput {
+        width: 80%;
+        height: 1rem;
+    }
+    .contactTextarea {
+        width: 80%;
+    }
+    .contactSocial {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactSocial a {
+        margin: 0.5rem;
+    }
 
 }
